@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="3461ab23157a9153867c05a78c719b0d49cf1ad0" datatype="html">
+        <source>Hi</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d076adbb3fab5be167493b385b0bab2e710998ed" datatype="html">
+        <source>Hello</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">A useful description</note>
+      </trans-unit>
+      <trans-unit id="ab8ec038cd3bed4efc6e4d638ce20ed208e238b5" datatype="html">
+        <source>whats up buddy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">A useful description</note>
+        <note priority="1" from="meaning">a regular site paragraph meaning</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
