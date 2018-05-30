@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, Validators, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'lazy-parent',
@@ -6,8 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lazy-parent.component.css']
 })
 export class LazyParentComponent implements OnInit {
-
-  constructor() { }
+  userform: FormGroup;
+  constructor(private fb: FormBuilder) {
+    // this.userform = this.fb.group(controlsconfig:{
+    //   'Name': ['',Validators.required]
+    // });
+  }
 
   ngOnInit() {
   }
